@@ -1,4 +1,4 @@
-from bertopic._bertopic import BERTopic
+from bertopic.bertopic import BERTopic
 from bertopic._ctfidf import ClassTFIDF
 from bertopic._embeddings import languages
 

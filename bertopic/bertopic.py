@@ -17,10 +17,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.preprocessing import MinMaxScaler
 
 # BERTopic
-from ._ctfidf import ClassTFIDF
-from ._utils import MyLogger, check_documents_type, check_embeddings_shape, check_is_fitted
-from ._embeddings import languages
-from ._mmr import mmr
+from _ctfidf import ClassTFIDF
+from _utils import MyLogger, check_documents_type, check_embeddings_shape, check_is_fitted
+from _embeddings import languages
+from _mmr import mmr
 
 # Additional dependencies
 try:
